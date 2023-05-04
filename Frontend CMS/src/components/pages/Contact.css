@@ -1,0 +1,58 @@
+.contact-container{
+    font-family: 'Anuphan', sans-serif;
+  margin: 0;
+  height: 75vh;
+}
+.ctn-1-hding{
+    display: grid;
+    gap: 3vw;
+    grid-template-columns: 1fr  1fr;
+}
+
+.btn{
+   width: 15%;
+    background-color: #7AA874;
+    color: white;
+    padding: 20px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+}
+.ctn-1-hding-1{
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    justify-content: end;
+    padding-bottom: 2rem;
+
+}
+address{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.form-control {
+    width:20vw;
+    display: inline-block;
+    padding: 1.5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 3rem;
+    
+}
+
+.ctn-hed{  
+margin-bottom: 4vh;
+}
+@media only screen and (max-width: 700px){
+.ctn-1-hding{
+display: block;
+}
+.contact__form input.form-control {
+    width: 35vw;
+}
+
+}

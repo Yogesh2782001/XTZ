@@ -1,0 +1,148 @@
+
+.container
+{
+  font-family: 'Anuphan', sans-serif;
+  margin: 0;
+  height: 80%;
+}
+  .one h1 {
+    text-align: center! important;
+    padding-bottom: 5px;
+    padding-top: 5%;
+    position: relative;
+    font-family: 'Anuphan', sans-serif;
+    font-weight: 300;
+    font-size: 38px;
+    color: #484747;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+
+  .link{
+    color: #3366CC ;
+  }
+
+  #line:hover{
+    text-decoration: underline;
+  }
+
+.two h3{
+     text-align: center;
+    padding-top: 25px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 200;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.form-l{
+    display: flex;
+    justify-content: center;
+    margin: 3.5%;
+}
+
+
+.email-l{
+    width:50%;
+    display: inline-block;
+    padding: 1.5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ .error-email{
+    border:2px solid red;
+  }
+
+
+.lar {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(86, 51, 51);
+}
+
+.checkbox-f {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.submit-f {
+    width: 15%;
+    background-color: #7AA874;
+    color: white;
+    padding: 20px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+  }
+
+input::-webkit-input-placeholder {
+    color: rgb(86, 51, 51);
+    font-weight:bold;
+    font-size: large;
+}
+input:-moz-placeholder {
+    color: rgb(30, 17, 17);
+    font-weight: bold;
+}
+input:-ms-input-placeholder {
+    color:rgb(44, 28, 28);
+    font-weight: bold;
+}
+
+.link{
+  text-decoration: none;
+}
+
+
+  @media only screen and (max-width: 900px) {
+   
+    .one h1{
+      position: center;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 250;
+      margin: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+   
+    .two h3{
+      position: center;
+      text-align: center;
+      font-size: 20px;
+      
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+   
+   .form-l {
+       padding: 5%;
+
+   }
+    }
+
+@media only screen and (max-width: 900px) {
+   
+    .email-l {
+        width: 65%;
+        padding: 18px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+   
+    .submit-f {
+        width: 25%;
+    }
+}

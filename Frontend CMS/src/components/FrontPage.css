@@ -1,0 +1,113 @@
+
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .home-container {
+    height:59vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  
+  .home-container > h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  } 
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+
+  .about{
+    text-align: center;
+    line-height: 2;
+    background-color: #fff;
+  }
+
+  .about > h3{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about > p{
+    font-size: 0.8rem;
+  }
+
+  .milestone-container{
+    background-color: #fff;
+    padding-bottom: 1rem;
+  }
+
+  .milestone-container > h2{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+   .milestone{
+    display: flex;
+    list-style: none;
+    padding-top: 1rem;
+  }
+
+  .milestone-items{
+    text-align: center;
+    width: 100%;
+  }
+
+    .milestone-items > h2{
+    color: #D21312;
+    font-size: 2.3rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .milestone2{
+    display: flex;
+    list-style: none;
+    padding-top: 1rem;
+  }
+
+  .milestone-items2{
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .milestone-items2 > h2{
+    color: #D21312;
+    font-size: 2.3rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  @media screen and (max-width: 960px) {
+    .home-container > h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+    .milestone-items > h2{
+      font-size: 1.8rem;
+    }
+
+    .milestone-items2 > h2{
+      font-size: 1.8rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .home-container > h1 {
+      font-size: 25px; 
+      text-align: center;
+    }
+  }
+  

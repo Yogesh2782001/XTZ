@@ -1,0 +1,87 @@
+ body {
+	 font-family: 'Anuphan', sans-serif;
+}
+ .wrapper {
+	 display: grid;
+	 grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+	 gap: 2rem;
+	 justify-content: center;
+	 padding-bottom: 2rem;
+}
+ .card {
+	 overflow: hidden;
+	 box-shadow: 0 2px 20px #e1e5ee;
+	 border-radius: 0.2rem;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 cursor: pointer;
+	 transition: transform 200ms ease-in;
+}
+ .card h1 {
+	 text-align: center;
+	 margin-bottom: 5rem;
+}
+ .card__image {
+	 height: 12rem;
+	 width: 100%;
+	 object-fit: cover;
+}
+ .card__title {
+	 padding: 1rem;
+	 text-align: center;
+	 font-family: 'Anuphan', sans-serif;
+}
+ .card__description {
+	 padding: 0 1rem;
+	 font-family: 'Anuphan', sans-serif;
+	 text-align: left;
+}
+ .card__btn {
+	text-align: center;
+	width: 80%;
+	 padding: 0.5rem;
+	 font-family: inherit;
+	 font-weight: bold;
+	 font-size: 1rem;
+	 margin: 1.6rem;
+	 border: 2px solid #242424;
+	 background: transparent;
+	 color: #242424;
+	 border-radius: 0.2rem;
+	 cursor: pointer;
+}
+ .card:hover {
+	 transform: scale(1.02);
+}
+ .card:hover .card__btn {
+	 background: #242424;
+	 color: white;
+}
+
+.gapi{
+	text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h5 {
+	margin-right: 1px;
+	margin-left:1px;
+	font-size: 1rem;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 3rem;
+  }
+
+.link1{
+	text-decoration: none;
+	color: #242424;
+}
+
+ .card:hover .link1 {
+	 color: white;
+}

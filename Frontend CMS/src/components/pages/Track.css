@@ -1,0 +1,57 @@
+.track-container{
+    text-align: center;
+    margin-top: 2rem;
+    height: 70vh;
+    font-family: 'Anuphan', sans-serif;
+}
+
+.track{
+    display: flex;
+    justify-content: center;
+    margin: 3.5%;
+}
+
+.inp-track{
+    width:50%;
+    display: inline-block;
+    padding: 1.5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.track-btn{
+    width: 10%;
+    background-color: #7AA874;
+    color: white;
+    background-color:#242424;
+    padding: 20px 10px;  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #track-header{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+   
+    .inp-track {
+        width: 65%;
+        padding: 18px;
+        margin-bottom: 2rem;
+    }
+
+    .track-btn{
+        width: 5rem;
+    }
+
+    .track-container{
+        height: 80vh;
+    }
+}
